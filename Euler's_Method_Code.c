@@ -1,6 +1,9 @@
 /***********************************************
 ****EULER METHOD FOR DIFFERENTIAL EQUATIONS*****
 ***********************************************/
+/*  Adapted From:
+    shorturl.at/CNP79   */
+
 #include<stdio.h>
 #include<math.h>
 
