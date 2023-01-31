@@ -4,6 +4,8 @@
 /*  Adapted From:
     shorturl.at/CNP79   */
 
+// Note: if there is a "// /*" or "// */", you can delete the // from "// /*" to comment out whole section (used for actual solution)
+
 #include<stdio.h>
 #include<math.h>
 
@@ -17,10 +19,12 @@ double f(double x, double y){
 }
 
 // Put in equation to get actual value
+// /*
 double actual_f(double x, double y){
     //Put Equation in Return Statement
     return 9 + (4 * x) - pow(E,x);
 }
+// */
 
 
 main(){
@@ -60,6 +64,7 @@ main(){
 //} //Uncomment this bracket if you are not using actual value
     
     // Prints Actual Value
+    // /*
     actual = actual_f(xf,yi);
     printf("The actual of y is %lf\n\n",actual);
-}
+} // */
