@@ -26,7 +26,6 @@ double actual_f(double x, double y){
 }
 // */
 
-
 main(){
     // Define Variables
     int i;
